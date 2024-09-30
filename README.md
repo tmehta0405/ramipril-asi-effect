@@ -1,17 +1,13 @@
 # ramipril-asi-effect
 
-This program is designed to predict the effectiveness of Ramipril, a drug used as an ACE inhibitor to treat high blood pressure. It uses simulated data to represent Ramipril’s properties, like its molecular weight and binding efficiency. The goal is to predict a target value called "Standard Value," which can indicate how well Ramipril inhibits ACE activity.
+This program is aimed at predicting how effective Ramipril, an ACE inhibitor for hypertension, is and its properties in general. It employs ‘virtual departments’ where simulated properties of Ramipril such as molecular weight or binding efficiency are illustrated. The primary objective is to estimate a given target value referred crystallographically as Standard Value, which is an indicator on the activity of ACE inhibition.
 
-Data Preparation: The program generates sample data for Ramipril, including features like its molecular weight and other chemical properties that affect its performance as an ACE inhibitor.
+This data is known as preparation data. In this case, this data is sample data of Ramipril including its molecular weight and other chemical properties which are important since they define how effective Ramipril will be as an ACE inhibitor.
 
-Target Property Prediction: The "Standard Value" (e.g., IC50) is used as the target. This value shows how effective Ramipril is in blocking ACE, which is crucial for lowering blood pressure.
+This property prediction of the target property uses the "Standard Value" (for example IC50) as the target, to be achieved. This value indicates the effectiveness of Ramipril, by which ACE activity is inhibited thus facilitating blood pressure reduction.
 
-Handling Missing Values: The program introduces some missing values to mimic real-world scenarios, then fills these gaps to ensure complete data for analysis.
+Data Completion: The software inserts some missing values so as to simulate a realistic situation afterwards then fills the collection for the purposes of analyzing the data set in particular.
 
-Model Training and Tuning: It trains a Random Forest model to find relationships between Ramipril’s properties and its effectiveness. The model is fine-tuned using different settings to get the best possible prediction accuracy.
+Knowing and improving the model: It uses one of the Random Forest predictors to model dependencies of the reference drug properties efficacy to the drug under treatment properties. The particular model’s performance was improved with some optimisation and changing the parameters seeking for better prediction performance.
 
-Evaluating the Model: It checks how good the predictions are by comparing them with true values. If the predicted and actual values match closely, it means the model is good at understanding Ramipril’s effectiveness.
-
-Visualization and Insights: The program plots graphs to show which properties of Ramipril are most influential and how accurate the model's predictions are.
-
-Overall, this program provides a way to predict how well Ramipril performs as an ACE inhibitor, helping in drug research and development.
+Evaluating the Model: It assesses the extent to which the predictions deviate from the truth. Therefore, if the predicted figures of Ramipril and actual figures fall within the same range, then it can be concluded that the model understands the effectiveness of Ramipril enough.
